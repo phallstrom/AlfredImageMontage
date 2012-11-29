@@ -16,7 +16,7 @@
 # 
 # This extension requires that ImageMagick be installed.
 #
-# Version: 1.0
+# Version: 1.1
 #
 
 histchars= # Critical to prevent certain shell expansions.

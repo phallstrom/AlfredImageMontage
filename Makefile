@@ -2,7 +2,7 @@ SOURCE_FILES = montage.sh icon.png info.plist kudos.plist
 PKG_FILES = $(SOURCE_FILES) update.xml
 EXTENSION = ImageMontage.alfredextension
 INSTALL_DIR = $(HOME)/Library/Application Support/Alfred/extensions/scripts/ImageMontage
-VERSION = 1.0
+VERSION = 1.1
 COMMENTS = 
 
 all: $(EXTENSION)
