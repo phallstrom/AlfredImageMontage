@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>action</key>
+	<true/>
+	<key>category</key>
+	<string>SCRIPTS</string>
+	<key>command</key>
+	<string>#
+# Select multiple images and then invoke this extension
+# to have it combine them into a single new image which
+# will be placed on your desktop. The new image will
+# automatically change the tiling from horizontal to 
+# vertical depending on the width of the selected images.
+# 
+# This extension requires that ImageMagick be installed.
+#
+# Version: 1.0
+#
+
+histchars= # Critical to prevent certain shell expansions.
+bash -l montage.sh "{query}"
+
+#
+# Merge icon used under a Attribution 3.0 Unported license.
+# http://creativecommons.org/licenses/by/3.0/
+# http://www.iconspedia.com/icon/merge-icon-19848.html
+#
+</string>
+	<key>disabled</key>
+	<false/>
+	<key>escapedollar</key>
+	<true/>
+	<key>escapequery</key>
+	<false/>
+	<key>escapequerybackquotes</key>
+	<false/>
+	<key>escapequerybrackets</key>
+	<false/>
+	<key>escapequeryquotes</key>
+	<true/>
+	<key>escapequerysemicolons</key>
+	<false/>
+	<key>growloutput</key>
+	<true/>
+	<key>growloutputsticky</key>
+	<false/>
+	<key>keyword</key>
+	<string>montage</string>
+	<key>logging</key>
+	<false/>
+	<key>multifileargs</key>
+	<true/>
+	<key>parameter</key>
+	<integer>1</integer>
+	<key>silent</key>
+	<true/>
+	<key>subtitle</key>
+	<string>Montage several images into a single image.</string>
+	<key>title</key>
+	<string>Image Montage</string>
+</dict>
+</plist>
