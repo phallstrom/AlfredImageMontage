@@ -57,7 +57,7 @@ bash -l montage.sh "{query}"
 	<key>silent</key>
 	<true/>
 	<key>subtitle</key>
-	<string>Montage several images into a single image.</string>
+	<string>Create a composite image by combining several separate images.</string>
 	<key>title</key>
 	<string>Image Montage</string>
 </dict>
